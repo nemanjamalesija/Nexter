@@ -1,34 +1,3 @@
-.app {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 0.8fr;
-  grid-template-rows: 4rem 8rem 15rem 4rem;
-  gap: 2.5rem;
-  width: 40rem;
-  height: 40rem;
-  margin: 0 auto;
-}
-
-.field {
-  background-color: red;
-  padding: 2rem;
-  color: #fff;
-  font-family: sans-serif;
-}
-
-.header {
-  grid-column: 1/-1;
-}
-
-.sidebar {
-  grid-row: span 2;
-}
-
-.main-content {
-  grid-column: 1/4;
-}
-
-.footer {
-  grid-column: 1/-1;
-}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Nunito:wght@300;400&display=swap");
 
 /*# sourceMappingURL=index.css.map */
