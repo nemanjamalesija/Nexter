@@ -1,10 +1,12 @@
+import Features from './components/Features';
+
 function App() {
   return (
     <div className='container'>
       <div className='sidebar'>Sidebar</div>
       <header className='header'>Header</header>
       <div className='realtors'>Top 3 realtors</div>
-      <section className='features'>Features</section>
+      <Features />
       <div className='story__pictures'>Story pictures</div>
       <div className='story__content'>Story content</div>
       <section className='homes'>Homes</section>
