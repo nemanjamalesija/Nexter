@@ -1,4 +1,5 @@
 import Features from './components/Features';
+import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Homes from './components/Homes';
 import StoryContent from './components/StoryContent';
@@ -15,7 +16,7 @@ function App() {
       <StoryContent />
       <Homes />
       <Gallery />
-      <footer className='footer'>Footer</footer>
+      <Footer />
     </div>
   );
 }

@@ -262,4 +262,26 @@ body {
 .footer {
   background-color: #101d2c;
   grid-row: 6;
-  grid-column: 2 / -1; }
+  grid-column: 2 / -1;
+  padding: 8rem; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .nav__link, .nav__link:link, .nav__link:visited {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    display: block;
+    padding: 1.5rem;
+    transition: all 0.2s; }
+  .nav__link:hover, .nav__link:active {
+    transform: translateY(-1rem);
+    background-color: rgba(255, 255, 255, 0.05); }
