@@ -1,4 +1,5 @@
 import Features from './components/Features';
+import Homes from './components/Homes';
 import StoryContent from './components/StoryContent';
 import StoryPictures from './components/StoryPictures';
 
@@ -11,7 +12,7 @@ function App() {
       <Features />
       <StoryPictures />
       <StoryContent />
-      <section className='homes'>Homes</section>
+      <Homes />
       <section className='gallery'>Gallery</section>
       <footer className='footer'>Footer</footer>
     </div>
