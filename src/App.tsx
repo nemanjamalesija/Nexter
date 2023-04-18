@@ -1,4 +1,5 @@
 import Features from './components/Features';
+import Gallery from './components/Gallery';
 import Homes from './components/Homes';
 import StoryContent from './components/StoryContent';
 import StoryPictures from './components/StoryPictures';
@@ -13,7 +14,7 @@ function App() {
       <StoryPictures />
       <StoryContent />
       <Homes />
-      <section className='gallery'>Gallery</section>
+      <Gallery />
       <footer className='footer'>Footer</footer>
     </div>
   );
