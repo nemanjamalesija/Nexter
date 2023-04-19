@@ -1,4 +1,38 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: span 3;
+  display: grid;
+  grid-template-rows: 0.4fr 1fr;
+  justify-content: center;
+  gap: 3rem;
+
+  &__heading {
+    align-self: end;
+    justify-self: center;
+  }
+
+  &__container {
+    align-self: start;
+    display: grid;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+
+.realtor {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  &__img {
+    height: 7.2rem;
+    width: 7.2rem;
+    border-radius: 50%;
+    display: block;
+  }
+
+  &__p {
+    color: rgba(#fff, 0.75);
+    text-transform: uppercase;
+  }
 }
